@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.glassCard{
+  background:  rgba(244, 230, 232, 0.18);
+  box-shadow:  0 8px 32px 2 rgba(80, 51, 225, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 2px solid rgba(225,225,225,0.18);
+}
